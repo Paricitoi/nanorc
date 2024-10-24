@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
+  <diagram name="Page-1" id="z2R23yF2_xAr9wj44NXU">
+    <mxGraphModel dx="1418" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-1" target="PIZpP7njdXqK2jsh0bPQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-1" value="Repo Security" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="120" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-2" target="PIZpP7njdXqK2jsh0bPQ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-2" value="Repo SRE&lt;br&gt;IaS" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="120" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-3" target="PIZpP7njdXqK2jsh0bPQ-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-3" value="Deploy App Gateway" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-5" target="PIZpP7njdXqK2jsh0bPQ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-5" value="Deploy Empty policy" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-7" target="PIZpP7njdXqK2jsh0bPQ-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-7" value="Prepare Rules" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-9" target="PIZpP7njdXqK2jsh0bPQ-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-9" value="Deploy Rules QA" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-11" target="PIZpP7njdXqK2jsh0bPQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="80" />
+              <mxPoint x="320" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-17" value="KO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PIZpP7njdXqK2jsh0bPQ-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.055" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-11" target="PIZpP7njdXqK2jsh0bPQ-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-25" value="OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PIZpP7njdXqK2jsh0bPQ-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-11" value="Testing" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PIZpP7njdXqK2jsh0bPQ-22" target="PIZpP7njdXqK2jsh0bPQ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-22" value="Deploy Rules Prod" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PIZpP7njdXqK2jsh0bPQ-26" value="WAF" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
